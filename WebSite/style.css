@@ -124,6 +124,88 @@ ul{
                     color: #5F7A77;
                     text-decoration:none;
                     line-height:24px;
-                    padding:
+                    padding: 0 0 0 12px;
                 }
+
+                #leftPan ul li a:hover{
+                    background:url(images/bullet2-hover.gif) 0 10px no-repeat #fff;
+                    text-decoration:none;
+                    color: #5F7A77;
+                }
+#rightPan{
+    width:511px;
+    float:left;
+    border-left: 1px solid #C8E8E2;
+    margin:28px 0 0;
+    padding:0 30px;
+}
+    #rightPan p{
+        padding: 0 0 10px 0;
+    }
+        #rightPan p.more{
+            width:502px;
+            height:25px;
+            float:left;
+            background:url(images/sky-color-bg.gif) 0 10px repeat-x;
+            padding: 0 0 20px 0;
+        }
+            
+            #rightPan p.more a{
+                width: 92px;
+                height:21px;
+                display:block;
+                background: url(images/special.gif) 0 0 no-repeat #fff;
+                color: #958201;
+                line-height:21px;
+                text-transform: uppercase;
+                text-decoration:none;
+                margin:0 0 0 328px;
+                padding:4px 0 0 50px;
+            }
+                #rightPan p.more a:hover {
+                    background: url(images/buy.gif) 0 0 no-repeat #fff;
+                    color: #958201;
+                    text-decoration: none;
+                }
+
+#footermainPan{
+    height:103px;
+    background:url(images/footerbg.gif) 0 0 repeat-x #D3F0F0;
+    color:#2F5958;
+    font:13px/20px "Trebuchet MS", Arial, Helvatica, sans-serif;
+    position:relative;
+    margin: 0 auto;
+    clear:both;
+    padding:36px 0 0;
+}
+    #footerPan{
+        width:778px;
+        position:relative;
+        margin:0 auto;
+    }
+        #footerPan ul{
+            width:608px;
+            height:20px;
+            position:relative;
+            margin:0 auto;
+        }
+            #footerPan ul li{
+                float:left;
+            }
+                #footerPan ul li a{
+                    padding: 0 10px 0;
+                    color:#2F5958;
+                    background:#EBF8F7;
+                    text-decoration:none;
+                    font-size:13px;
+                }
+                    #footerPan ul li a:hover{
+                        text-decoration:underline;
+                    }
+            #footerPan p.copyright{
+                width:250px;
+                margin:10px 0 0 92px;
+            }
+
+            #footerPan 
         
